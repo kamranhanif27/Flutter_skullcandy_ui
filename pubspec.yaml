@@ -1,0 +1,39 @@
+name: skull_candy
+description: Skullcandy Online Store App
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/earphone.png
+    - assets/images/earphone2.png
+    - assets/images/headphone1.png
+    - assets/images/headphone2.png
+
+  fonts:
+    - family: GilroyBold
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+    - family: GilroyLight
+      fonts:
+        - asset: assets/fonts/Gilroy-Light.otf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
